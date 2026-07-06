@@ -1,12 +1,11 @@
 <template>
   <v-app>
     <v-main>
-      <Brandbook />
+      <brandbook />
     </v-main>
   </v-app>
 </template>
 
 <script lang="ts" setup>
-  import HelloWorld from '@/components/HelloWorld.vue'
-import Brandbook from './components/brandbook.vue';
+import brandbook from './components/brandbook.vue';
 </script>
